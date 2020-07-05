@@ -18,14 +18,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfiguration {
     @Bean
-    public Docket produceApi(TypeResolver typeResolver) {
+    public Docket produceApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 /**
                  * los modelos polimorficos de siniestros no me los toma la libreria a menos que los agregue a mano
                  */
-                .additionalModels(
-                        typeResolver.resolve(TransactionDTO.class)
-                )
                 .useDefaultResponseMessages(false)
                 .apiInfo(apiInfo())
                 .select()
