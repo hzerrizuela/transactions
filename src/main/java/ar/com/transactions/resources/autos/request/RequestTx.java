@@ -1,6 +1,5 @@
-package ar.com.experta.resources.autos.request;
+package ar.com.transactions.resources.autos.request;
 
-import ar.com.experta.model.TransactionType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

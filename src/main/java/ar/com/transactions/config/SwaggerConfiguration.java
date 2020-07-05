@@ -1,6 +1,6 @@
-package ar.com.experta.config;
+package ar.com.transactions.config;
 
-import ar.com.experta.dto.TransactionDTO;
+import ar.com.transactions.dto.TransactionDTO;
 import com.fasterxml.classmate.TypeResolver;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
@@ -29,7 +29,7 @@ public class SwaggerConfiguration {
                 .useDefaultResponseMessages(false)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("ar.com.experta.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("ar.com.transactions.controllers"))
                 .paths(PathSelectors.any())
                 .build();
     }

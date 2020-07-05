@@ -1,4 +1,4 @@
-package ar.com.experta.api.db;
+package ar.com.transactions.api.db;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

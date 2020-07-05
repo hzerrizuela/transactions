@@ -1,7 +1,6 @@
-package ar.com.experta.dao;
+package ar.com.transactions.dao;
 
-import ar.com.experta.api.db.TransactionsDB;
-import org.springframework.data.jpa.repository.Query;
+import ar.com.transactions.api.db.TransactionsDB;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

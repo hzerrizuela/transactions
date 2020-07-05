@@ -1,4 +1,4 @@
-package ar.com.experta.exceptions;
+package ar.com.transactions.exceptions;
 
 public class AccountBalanceException extends RuntimeException {
 

@@ -1,10 +1,10 @@
-package ar.com.experta.controllers;
+package ar.com.transactions.controllers;
 
-import ar.com.experta.autos.service.CreditCardService;
-import ar.com.experta.dto.TransactionDTO;
-import ar.com.experta.exceptions.AccountBalanceException;
-import ar.com.experta.exceptions.TransactionNotFoundException;
-import ar.com.experta.resources.autos.request.RequestTx;
+import ar.com.transactions.autos.service.CreditCardService;
+import ar.com.transactions.dto.TransactionDTO;
+import ar.com.transactions.exceptions.AccountBalanceException;
+import ar.com.transactions.exceptions.TransactionNotFoundException;
+import ar.com.transactions.resources.autos.request.RequestTx;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-import static ar.com.experta.autos.service.CreditCardService.USER_ID;
+import static ar.com.transactions.autos.service.CreditCardService.USER_ID;
 
 @RestController
 @RequestMapping("/transactions")

@@ -1,4 +1,4 @@
-package ar.com.experta.dto;
+package ar.com.transactions.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package ar.com.experta.model;
+package ar.com.transactions.model;
 
 public enum TransactionType {
     CREDIT,
