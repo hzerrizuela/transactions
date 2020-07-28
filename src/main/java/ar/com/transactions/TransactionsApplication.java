@@ -9,7 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class TransactionsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransactionsApplication.class, args);
+//		SpringApplication.run(TransactionsApplication.class, args); fixme
 	}
 
 
